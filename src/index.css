@@ -11,3 +11,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.hero-container{
+  background-image: url('https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=300');
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-container p, .hero-container h1{
+  color: white;
+}
+
+.hero-container button{
+  background-color: lightgray;
+  color: blue;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.hero-container button:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+
+.footerItems{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footerItems a{
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+.footer{
+  margin: 10px;
+  padding: 10px;
+}
+
+.footer section{
+  padding: 20px
+}
+
+.projects li{
+  list-style: none;
+}
+
+.projects li a{
+  text-decoration: none;
+  color: black;
+}
